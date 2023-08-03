@@ -38,7 +38,7 @@ public class big_cool_adventure {
 				JOptionPane.showMessageDialog(null,"You live the rest of your life in poverty, Ouch.\n\nRun again to restart");
 			}
 			Random ran = new Random();			
-			int winner = ran.nextInt(2000000000);
+			int winner = ran.nextInt(2000000001);
 			String win = JOptionPane.showInputDialog("What is you number?");
 			int winInt = Integer.parseInt(win);
 			if(winInt ==winner) {

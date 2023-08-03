@@ -12,7 +12,7 @@ public class I_am_depressed {
 			if (ifWantHappy.equals("yes")) {
 				JOptionPane.showMessageDialog(null, "Then change something");
 			} else if (ifWantHappy.equals("no")) {
-				JOptionPane.showMessageDialog(null, "Then Kepp doing whatever you're doing");
+				JOptionPane.showMessageDialog(null, "Then Keep doing whatever you're doing");
 			}
 		}
 	}

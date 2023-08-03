@@ -9,10 +9,26 @@ public class WalkOfFame {
 		
 		// 1. Set the X position of the robot so that it starts on the left. 
 		// You also need to show the robot to see the result of this line.
-zucchini.
+zucchini.setSpeed(50);
+zucchini.setX(0);
 		// 2. Make the robot draw a star shape. Hint: angle=144.
 
-		// 3. Set the length of each line in the star to 30.
+for (int i = 0; i <= 10; i+=1) {
+zucchini.penDown();
+zucchini.move(30);
+zucchini.turn(144);
+zucchini.move(30);
+zucchini.turn(144);
+zucchini.move(30);
+zucchini.turn(144);
+zucchini.move(30);
+zucchini.turn(144);
+zucchini.move(30);
+zucchini.turn(-126);
+zucchini.penUp();
+zucchini.move(50);
+zucchini.turn(90);
+}	// 3. Set the length of each line in the star to 30.
 
 		/** THE CHALLENGE: **/
 		/*

@@ -52,7 +52,7 @@ public class ShinyObjects {
 				}
 			}
 		} else {
-			System.out.println("Mister Zee requires shiny objects");
+			System.out.println("Mister Zee requires shiny object");
 		}
 	}
 
