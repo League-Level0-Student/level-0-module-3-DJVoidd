@@ -13,7 +13,8 @@ zucchini.setSpeed(50);
 zucchini.setX(0);
 		// 2. Make the robot draw a star shape. Hint: angle=144.
 
-for (int i = 0; i <= 10; i+=1) {
+for (int i = 0; i <= 999; i+=1) {
+zucchini.setAngle(0);
 zucchini.penDown();
 zucchini.move(30);
 zucchini.turn(144);
@@ -27,8 +28,8 @@ zucchini.move(30);
 zucchini.turn(-126);
 zucchini.penUp();
 zucchini.move(50);
-zucchini.turn(90);
-}	// 3. Set the length of each line in the star to 30.
+}
+	// 3. Set the length of each line in the star to 30.
 
 		/** THE CHALLENGE: **/
 		/*
