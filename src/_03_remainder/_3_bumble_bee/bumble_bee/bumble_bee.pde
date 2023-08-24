@@ -1,3 +1,4 @@
+int X = 100;
 int Y = 100;
 void setup() {
      ellipseMode(CENTER);
@@ -16,9 +17,20 @@ void draw() {
 (see the image on the recipe, it's a diagonal line of circles)
 Use remainder to make the colors alternate between yellow and black
 */
-
-
-
+drawBeeFace(95,95);
+for (int i = 0; i <= 99999; i+=1) {
+if (Y % 2 == 0){
+fill(#ffd60a);
+}
+else{
+fill(#000000);
+}
+ellipse(X, Y ,1,1);
+Y += 1;
+X += 1;
+}
+textSize(25);
+     text("Infinibee\n\n He's malnourished", 250, 250);
 /*
 Now put his head on using drawBeeFace(x,y)
 */
